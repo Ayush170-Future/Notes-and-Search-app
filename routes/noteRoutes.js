@@ -12,6 +12,4 @@ router.post('/', createNote);
 router.put('/:id', updateNoteById);
 router.delete('/:id', deleteNoteById);
 
-// router.post('/:id/share', validateToken, shareNote);
-
 module.exports = router;
