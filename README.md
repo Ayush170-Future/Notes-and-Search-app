@@ -1,4 +1,4 @@
-# Project Title
+# Containerized Notes and Search Backend Application
 
 Libraries and their use-case:
 
