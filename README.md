@@ -30,14 +30,14 @@ This project has been containerized using Docker for easy deployment and reprodu
 
 1. Install Docker Desktop: [Docker Desktop Installation Guide](https://www.docker.com/products/docker-desktop)
 
-2. Build the Docker image:
+2. Pull the Docker image from my public repository:
     ```bash
-    docker build . -t ayush/note-search-app:v1
+    docker pull ayushsingh170/containerized-notes-and-search-backend
     ```
 
 3. Run the Docker container:
     ```bash
-    docker run -d -p 5001:5000 ayush/note-search-app:v1
+    docker run -d -p 5001:5000 ayushsingh170/containerized-notes-and-search-backend
     ```
 
 ## Installation Steps (Without Docker)
