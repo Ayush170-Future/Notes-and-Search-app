@@ -37,7 +37,7 @@ This project has been containerized using Docker for easy deployment and reprodu
 
 3. Run the Docker container:
     ```bash
-    docker run -d -p 5001:5000 ayushsingh170/containerized-notes-and-search-backend
+    docker run -d -p 5000:5000 ayushsingh170/containerized-notes-and-search-backend
     ```
 
 ## Installation Steps (Without Docker)
